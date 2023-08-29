@@ -27,7 +27,7 @@ a:link{
     color: rgb(255, 252, 165);
 }
 a:visited{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 252, 165);
 }
 a:hover{
     text-decoration: underline;
@@ -43,7 +43,7 @@ p.profile{
     text-align: left;
     text-decoration: underline;
     color : rgb(255, 255, 255);
-    margin: 7px 40px ;
+    margin: 25px 100px ;
     padding: 10px;
     font-weight: bold;
     font-size: 50px;
@@ -64,15 +64,9 @@ main.box-1{
     background-color: azure;
 }
 
-main.img{
+main.video{
     position: relative;
     left: 60px;
-    bottom: 48vh;
-    border: 2px solid black;
-    border-radius: 20px;
-    width: fit-content;
-    margin: 20px 80vh 20px 0vh;
-    padding: 20px 50px 40vh;
-    background-color: azure;
-    width: 30%;
+    bottom: 50vh;
+    padding: 20px 50px;
 }
