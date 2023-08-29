@@ -26,7 +26,7 @@ a:link{
     color: rgb(255, 252, 165);
 }
 a:visited{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 252, 165);
 }
 a:hover{
     text-decoration: underline;
@@ -63,8 +63,21 @@ div{
     border-radius: 40px;
     font-size: 40px;
 }
+a.box{
+    text-decoration: underline;
+}
+a:link{
+    color: rgb(237, 71, 0);
+}
+a.box:visited{
+    color: rgb(217, 76, 0);
+}
+a.box:hover{
+    text-decoration: underline;
+    color: rgb(255, 191, 222);
+}
+a:active{
 
-
-
-
-
+    text-decoration: underline;
+    color: #000000;
+}
