@@ -16,10 +16,11 @@ nav ul li {
 }
 
 a{
+    padding: 10px 20px;
     text-decoration: none;
     color : black;
     font-weight: bold;
-    font-size: medium;
+    font-size: 30px;
     font-family: Serif;
 }
 a:link{
@@ -45,12 +46,12 @@ p.profile{
     margin: 7px 40px ;
     padding: 10px;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 50px;
     font-family: Serif;
 }
 
 p{
-    font-size: small;
+    font-size: 25px;
 }
 
 main.box-1{
@@ -58,20 +59,20 @@ main.box-1{
     border: 2px solid black;
     border-radius: 20px;
     width: fit-content;
-    margin: 20px 0px 20px 80vh;
-    padding: 10px 10px 10px 10px;
+    margin: 50px 30px 20px 80vh;
+    padding:20px;
     background-color: azure;
 }
 
 main.img{
     position: relative;
-    left: 40px;
-    bottom: 60vh;
+    left: 60px;
+    bottom: 48vh;
     border: 2px solid black;
     border-radius: 20px;
     width: fit-content;
     margin: 20px 80vh 20px 0vh;
-    padding-bottom: 190px;
+    padding: 20px 50px 40vh;
     background-color: azure;
     width: 30%;
 }
