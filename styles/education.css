@@ -15,10 +15,11 @@ nav ul li {
 }
 
 a{
+    padding: 10px 20px;
     text-decoration: none;
     color : black;
     font-weight: bold;
-    font-size: medium;
+    font-size: 30px;
     font-family: Serif;
 }
 a:link{
@@ -42,22 +43,22 @@ a:active{
     display: flex;
     justify-items: center;
     align-items: center;
-    margin: 30px 55vh 30px ;
+    margin: 50px 60vh 50px ;
     padding: 10px 10px;
     background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 20px;
     text-align: center;
-    font-size: medium;
+    font-size: 32px;
 }
 
 p.heading{    
     text-align: left;
     text-decoration: underline;
-    color : rgb(0, 0, 0);
-    margin: 7px 65vh ;
+    color : rgb(33, 33, 33);
+    margin: 20px 30% 5px 37% ;
     padding: 10px;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 50px;
     font-family: Serif;
 }

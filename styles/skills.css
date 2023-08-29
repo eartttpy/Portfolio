@@ -15,10 +15,11 @@ nav ul li {
 }
 
 a{
+    padding: 10px 20px;
     text-decoration: none;
     color : black;
     font-weight: bold;
-    font-size: medium;
+    font-size: 30px;
     font-family: Serif;
 }
 a:link{
@@ -57,13 +58,13 @@ main .left img , main .right img {
     padding: 10px;
 }
 
-h1{    
+p{    
     text-align: left;
     text-decoration: underline;
     color : rgb(255, 255, 255);
-    margin: 7px 37px ;
+    margin: 7px 70px ;
     padding: 10px;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 50px;
     font-family: Serif; 
 }

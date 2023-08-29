@@ -11,14 +11,15 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin: 10px 30px;   
+    margin: 10px 30px;
 }
 
 a{
+    padding: 10px 20px;
     text-decoration: none;
     color : black;
     font-weight: bold;
-    font-size: medium;
+    font-size: 30px;
     font-family: Serif;
 }
 a:link{
@@ -47,15 +48,16 @@ p{
 }
 
 p.text-1{
-    font-size:xx-large;
-    margin: 50px 20vh 10px ;
+    font-size:50px;
+    margin: 30vh 30vh 10px 30vh ;
     padding: 10px 40px;
     color: #000000;
     background-color : rgb(255, 255, 255);
 }
 p.text-2{
-    font-size:xx-large;
-    margin: 7px 30vh 10px ;
+    font-size:50px;
+
+    margin: 7px 40vh 10px ;
     padding: 10px 40px;
     color: #ff3232;
     background-color : rgb(255, 255, 255);
