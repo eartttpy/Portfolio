@@ -54,7 +54,7 @@ body{
     background-size: cover;
 }
 
-.box-1, .box-2, .box-3, .box-4, .box-5 {
+div{
     width: fit-content;
     margin: 7px 70px ;
     padding: 10px;
@@ -63,6 +63,7 @@ body{
     border-radius: 40px;
     font-size: 40px;
 }
+
 
 
 
