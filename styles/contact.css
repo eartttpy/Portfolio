@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
+
 }
 
 nav ul {
@@ -11,62 +12,64 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin: 10px 30px;   
+    margin: 1rem 0.2rem;
+    
 }
 
 a{
-    padding: 10px 20px;
+    padding: 1rem 0.5rem;
     text-decoration: none;
     color : black;
     font-weight: bold;
-    font-size: 30px;
     font-family: Serif;
 }
 a:link{
-    color: rgb(255, 252, 165);
+    color: rgb(255, 247, 165)
 }
 a:visited{
-    color: rgb(255, 252, 165);
+    color: rgb(255, 255, 255);
 }
 a:hover{
     text-decoration: underline;
-    color: rgb(255, 191, 222);
+    color: rgb(202, 181, 255);
 }
 a:active{
 
     text-decoration: underline;
-    color: #e9ffb9;
+    color: #ffa0d1;
 }
 
 p.heading{    
     text-align: left;
     text-decoration: underline;
-    color : rgb(255, 255, 255);
-    margin: 7px 70px ;
-    padding: 10px;
+    background-color: azure;
+    width: fit-content;
+    margin: 1rem 6rem ;
+    padding: 1rem;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 4rem;
     font-family: Serif;
 }
 
 body{
     background-image: url('https://i.pinimg.com/564x/e4/bb/dc/e4bbdc77edc9d93ffc5495562f3382b1.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 div{
     width: fit-content;
-    margin: 7px 70px ;
-    padding: 10px;
+    margin: 2rem;
+    padding: 1rem 0.5rem;
     background-color: aliceblue;
     border: 2px solid black;
     border-radius: 40px;
-    font-size: 40px;
+    font-size: 2rem;
 }
 a.box{
     text-decoration: underline;
 }
-a:link{
+a.box:link{
     color: rgb(237, 71, 0);
 }
 a.box:visited{
@@ -76,8 +79,12 @@ a.box:hover{
     text-decoration: underline;
     color: rgb(255, 191, 222);
 }
-a:active{
+a.box:active{
 
     text-decoration: underline;
     color: #000000;
+}
+
+html{
+    font-size: calc(50% + 0.5vmin);
 }
