@@ -44,8 +44,9 @@ main {
     display: grid;
     grid-template-columns: 50% 50%;
     max-width: 37rem;
-    margin-left: 0.1rem;
+    margin: auto;
     padding:0.5rem;
+    
 }
 main .left , main .right {
     display: grid;
@@ -53,8 +54,9 @@ main .left , main .right {
     border: 0.4rem solid black;
     border-radius: 3rem;
     padding: 1rem 0rem 2rem 2rem;
+
     background-color: rgb(255, 255, 255);
-    margin: auto;
+
 }
 main .left img , main .right img {
     width: 12rem;

@@ -54,6 +54,7 @@ p.heading{
 body{
     background-image: url('https://i.pinimg.com/564x/e4/bb/dc/e4bbdc77edc9d93ffc5495562f3382b1.jpg');
     background-size: cover;
+    background-position-x: center;
     background-attachment: fixed;
 }
 

@@ -41,6 +41,10 @@ a:active{
 
 
 .box-1, .box-2{
+    width: fit-content;
+    display: flex;
+    justify-items: center;
+    align-items: center;
     max-width: 40rem;
     margin: 0 auto;
     margin-top: 2rem;
