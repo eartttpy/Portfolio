@@ -13,6 +13,8 @@ nav ul {
 nav ul li {
     list-style: none;
     margin: 1rem 0.2rem;
+    margin-top: calc(3% + 0.5vmin);
+    margin-left: calc(1% + 1vmin);
     
 }
 
@@ -22,6 +24,8 @@ a{
     color : black;
     font-weight: bold;
     font-family: Serif;
+    font-size: 1rem;
+
 }
 a:link{
     color: rgb(255, 247, 165)
