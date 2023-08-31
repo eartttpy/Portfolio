@@ -13,9 +13,7 @@ nav ul {
 nav ul li {
     list-style: none;
     margin: 1rem 0.2rem;
-    margin-top: calc(3% + 0.5vmin);
-    margin-left: calc(1% + 1vmin);
-    
+   
 }
 
 a{
