@@ -1,70 +1,90 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
+
+}
+
+nav{
+    font-size: 3vW;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     background-color: rgb(255, 115, 76);
- 
 }
+
 nav ul li {
     list-style: none;
-    margin: 10px 30px;   
+    margin: 1rem 0.2rem;
+   
 }
 
 a{
-    padding: 10px 20px;
+    padding: 1rem 0.5rem;
     text-decoration: none;
     color : black;
     font-weight: bold;
-    font-size: 30px;
     font-family: Serif;
+
 }
 a:link{
-    color: rgb(255, 252, 165);
+    color: rgb(255, 247, 165)
 }
 a:visited{
-    color: rgb(255, 252, 165);
+    color: rgb(255, 255, 255);
 }
 a:hover{
     text-decoration: underline;
-    color: rgb(255, 191, 222);
+    color: rgb(202, 181, 255);
 }
 a:active{
 
     text-decoration: underline;
-    color: #e9ffb9;
+    color: #ffa0d1;
 }
+
 
 main {
     display: grid;
     grid-template-columns: 50% 50%;
+    max-width: 37rem;
+    margin: auto;
+    padding:0.5rem;
+    
 }
 main .left , main .right {
     display: grid;
     grid-template-rows: 33% 33% 33%;
-    justify-items: center;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin: 20px 10vh 20px;
+    border: 0.4rem solid black;
+    border-radius: 3rem;
+    padding: 1rem 0rem 2rem 2rem;
+
     background-color: rgb(255, 255, 255);
+
 }
 main .left img , main .right img {
-    width: 150px;
-    height: 150px;
+    width: 12rem;
+    height: 15rem;
     object-fit: contain;
-    padding: 10px;
+    margin-left : 2rem;
+    margin-right: 3rem;
+
+
 }
 
-p{    
-    text-align: left;
+p{ 
+    margin: auto;
     text-decoration: underline;
-    color : rgb(255, 255, 255);
-    margin: 7px 70px ;
-    padding: 10px;
+    background-color: azure;
+    width: fit-content;
+    margin-top: 2rem;
+    padding: 1rem;
     font-weight: bold;
     font-size: 50px;
     font-family: Serif; 
+}
+
+html{
+    font-size: calc(50% + 0.5vmin);
 }
