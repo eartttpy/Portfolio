@@ -4,6 +4,10 @@
 
 }
 
+nav{
+    font-size: 3vW;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
