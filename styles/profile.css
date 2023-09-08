@@ -71,6 +71,7 @@ main.box-1{
     width: fit-content;
     padding:2rem 1rem;
     background-color: azure;
+    font-size: 3vw;
 }
 
 html{
