@@ -10,7 +10,7 @@ nav{
 nav ul {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 115, 76);
+    background-color: rgb(20, 20, 167);
 }
 
 nav ul li {
